@@ -5,12 +5,13 @@
 }
 
 .HomePage {
+    position: absolute;
     height: 100%;
     width: 100%;
     background-color: bisque;
-    background-image: linear-gradient("Images\mobile_gaming.jpg")
 }
 .Home_contents{
     top: auto;
     left: auto;
 }
+.
