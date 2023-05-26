@@ -17,6 +17,12 @@
 .HeaderLinks{
     top: auto;
     right: auto;
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
 }
 .searchtext{
     top: auto;
