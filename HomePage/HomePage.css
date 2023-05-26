@@ -14,7 +14,7 @@
     top: auto;
     left: auto;
 }
-.HeaderLinks{
+.nav{
     top: auto;
     right: auto;
     width: 80%;
@@ -25,10 +25,20 @@
     align-items: center;
 }
 .searchtext{
+    flex-basis: 20%;
     top: 10%;
     right: 10%;
 }
-.a{
-    top: auto;
-    right: auto;
+.HeaderLinks{
+    text-align: right;
+    flex: 1;
+}
+.HeaderLinks ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.HeaderLinks ul li a{
+        color:aqua;
+        text-decoration: none;
 }
