@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>SignUp</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="application/javascript" href="form.js">
 </head>
 <body>
     <div id="SignUpPage" class="SignUp_Content">
@@ -54,10 +56,11 @@
         </fieldset>
     </div>
 
-<script>
-    let button = document.getElementById('SignUpBtn')
+/*<script type="application/javascript">
+/*    let button = document.getElementById('SignUpBtn') */
 function signUpOutput()
 {
+    let button = document.getElementById('SignUpBtn')
     let fn = document.getElementById('firstname').value;
     let ln = document.getElementById('lastname').value;
     let grade = document.getElementById('grade').value;
@@ -74,6 +77,7 @@ function signUpOutput()
     document.write("First Name : " + fn);
     console.log("test")
 }
-</script>
+</script> 
+    */
 </body>
 </html>
