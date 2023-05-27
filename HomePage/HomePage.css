@@ -13,6 +13,8 @@
 .Home_contents{
     top: auto;
     left: auto;
+    bottom: auto;
+    right: auto;
 }
 .nav{
     top: auto;
