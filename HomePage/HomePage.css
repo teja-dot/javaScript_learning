@@ -39,6 +39,22 @@
     margin: 0 20px;
 }
 .HeaderLinks ul li a{
-        color:aqua;
+        color: blue;
         text-decoration: none;
+}
+
+.footerlinks {
+    text-align: right;
+    flex: 1;
+}
+
+.footerlinks ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+.footerlinks ul li a {
+    color: blue;
+    text-decoration: none;
 }
