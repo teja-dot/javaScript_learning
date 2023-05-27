@@ -65,18 +65,22 @@
 
 .footerlinks {
     text-align: center;
-    flex: 50%;
+    flex: 1;
+}
+.footerLinks ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
 }
 
 .footerlinks ul li {
     list-style: none;
-    display: block;
-    margin: 0 20px;
+    display: inline-block;
 }
 
 .footerlinks ul li a {
     color: blue;
     text-decoration: none;
-    float: left;
-    padding: 10px 20px;
+//    float: left;
+//    padding: 10px 20px;
 }
